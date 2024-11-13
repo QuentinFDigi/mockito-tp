@@ -7,5 +7,5 @@ public class AbstractDao {
     /**
      * Entity manager factory
      */
-    public static EntityManagerFactory emf = Persistence.createEntityManagerFactory("banque");
+    public EntityManagerFactory emf = Persistence.createEntityManagerFactory("banque");
 }
